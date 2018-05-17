@@ -1,0 +1,61 @@
+body{
+	background-image: url("imagem/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 110%;
+}
+
+button{
+	background-color: transparent;
+}
+
+#pedra{
+	margin: 50px 0 0 500px;
+}
+
+#play{
+	margin: 50px 0 0 650px;
+}
+
+h3{
+	margin: 50px 0 0 550px;
+}
+
+#papel{
+	margin: 0 0 0 25px;
+}
+
+#tesoura{
+	margin: 0 0 0 25px;
+}
+
+h1{
+	font-family: "Arial Black";
+}
+.opcaodemao{
+	width: 180px;
+	height: 300px;
+}
+
+#seuponto1{
+	margin: 50px 0 0 550px;
+	font-size: 25px;
+
+}
+
+#pontodopc1{
+	margin: -28px 0 0 750px;
+	font-size: 25px;
+
+}
+
+#empate1{
+	margin: -28px 0 0 950px;
+	font-size: 25px;
+
+}
+
+#regras{
+	margin: -600px 1200px 0 0px;
+	font-family: Verdana;
+	color: black;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JO KEN PO</title>
+	<link rel="stylesheet" type="text/css" href="style/trabalho.css">
+</head>
+<body>
+	<script src="trabalho.js"></script>
+	<h1 align="center">JO KEN PO</h1>
+	<button id="pedra" onclick="pedra()"><img class="opcaodemao" src="style/imagem/pedra.jpg"></button>
+	<button id="papel" onclick="papel()"><img class="opcaodemao" src="style/imagem/papel.jpg"></button>
+	<button id="tesoura" onclick="tesoura()"><img class="opcaodemao" src="style/imagem/tesoura.jpg"></button>
+	<button id="play" onclick="iniciar()"><img src="style/imagem/play.jpg"></button>
+
+	<h3>Para jogar, selecione sua jogada e clique em play! BOM JOGO!!!</h3>
+	<h3 id="seuponto1">Seus pontos: <span id="seuponto">0</span></h3>
+	<h3 id="pontodopc1">Pontos do pc: <span id="pontodopc">0</span></h3>
+	<h3 id="empate1">Empates: <span id="empate">0</span></h3>
+
+	<h3 id="regras">REGRAS: No JO-KEN-PO, os jogadores devem simultaneamente esticar a mão, na qual cada um formou um símbolo (que significa pedra, papel ou tesoura). Então, os jogadores comparam os símbolos para decidir quem ganhou, da seguinte forma:
+
+Pedra ganha da tesoura (amassando-a ou quebrando-a).
+Tesoura ganha do papel (cortando-o).
+Papel ganha da pedra (embrulhando-a).
+A pedra é simbolizada por um punho fechado; a tesoura, por dois dedos esticados; e o papel, pela mão aberta. Caso dois jogadores façam o mesmo gesto, ocorre um empate, e geralmente se joga de novo até desempatar.</h3>
+
+</body>
+</html>
